@@ -9,3 +9,7 @@ function component() {
   }
   
   document.body.appendChild(component());
+
+  setTimeout(() => {
+    console.log('Settimeout example');
+  }, 2000);
